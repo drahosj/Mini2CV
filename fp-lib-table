@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Eurocad)(type Github)(uri https://github.com/nebs/eurocad/)(options "")(descr ""))
+)
