@@ -406,7 +406,7 @@ UART1_RX
 Text Label 4350 4750 2    50   ~ 0
 UART1_TX
 Text Notes 4650 4700 0    50   ~ 0
-NRST\nSWCLK\nSWDIO\nGND\nTX\nRX
+NRST\nSWCLK\nSWDIO\nGND\nRX\nTX
 $Comp
 L Connector_Generic:Conn_01x06 J7
 U 1 1 5FDD2C56
@@ -964,14 +964,6 @@ Wire Wire Line
 	4950 1150 4950 1250
 Connection ~ 4200 1150
 Connection ~ 4950 1150
-Wire Wire Line
-	4950 1350 4950 1450
-Wire Wire Line
-	4950 1600 4050 1600
-Connection ~ 4950 1450
-Wire Wire Line
-	4950 1450 4950 1600
-Connection ~ 4050 1600
 $Comp
 L power:GND #PWR0118
 U 1 1 5FE463A1
@@ -1396,4 +1388,10 @@ Wire Wire Line
 	4200 4400 4200 4350
 Wire Wire Line
 	4200 4350 4350 4350
+Wire Wire Line
+	4950 1450 4950 1350
+Connection ~ 4950 1250
+Connection ~ 4950 1350
+Wire Wire Line
+	4950 1350 4950 1250
 $EndSCHEMATC
